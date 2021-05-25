@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".espanol">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:text="@string/español"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/botonBusquedaDiccionarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/busquedaEnDiccionarios"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/botonSinonimos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sinonimos"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/botonAntonimos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/antonimos"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/botonPalabrascon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/palabrasCon"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

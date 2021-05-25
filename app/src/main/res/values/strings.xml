@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Escuela en Casa</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="pin">Pin</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="crear_cuenta">Crear una cuenta</string>
+
+    <!--Pantalla 2-->
+    <string name="madre_padre">Madre/Padre</string>
+    <string name="maestroa">Maestro (a)</string>
+    <string name="repetir_pin">Repetir Pin</string>
+
+    <!--Pantalla 3-->
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="cambiar_pin">Cambiar Pin</string>
+    <string name="pin_anterior">Pin anterior</string>
+    <string name="olvide_pin">Olvide mi pin</string>
+    <string name="pin_nuevo">Pin nuevo</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="mensajes">Mensajes</string>
+    <string name="temas_guardados">Temas guardados</string>
+    <string name="temas_nuevos">Temas nuevos</string>
+
+    <!--Pantalla 4-->
+    <string name="busqueda">Busqueda</string>
+    <string name="nombre_del_tema">Nombre del tema</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</string>
+
+    <!--Pantalla 5-->
+    <string name="tema">Tema</string>
+    <string name="imagen">Imagen</string>
+
+    <!--Pantalla 6-->
+    <string name="Guardados">Tema</string>
+
+    <!--Pantalla 7-->
+    <!--Mismos de arriba-->
+
+    <!--Pantalla 8-->
+    <string name="chat">Chat</string>
+    <string name="chatUsuario">Chat de usuario</string>
+    <string name="inicio">Inicio</string>
+    <string name="español">Español</string>
+    <string name="matematicas">Matematicas</string>
+    <string name="guardados">Guardados</string>
+
+
+    <string name="busquedaEnDiccionarios">Busqueda en diccionarios</string>
+    <string name="sinonimos">Sinonimos</string>
+    <string name="antonimos">Antonimos</string>
+    <string name="palabrasCon">Palabras Con</string>
+
+    <string name="diccionario">Diccionario</string>
+    <string name="palabra">Palabra</string>
+    <string name="title_activity_antonimos">antonimos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_palabras_con">palabras_con</string>
+</resources>

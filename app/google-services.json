@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969043987038",
+    "project_id": "proyectofinal-1621022420750",
+    "storage_bucket": "proyectofinal-1621022420750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969043987038:android:da91e7821efd10d30b02cf",
+        "android_client_info": {
+          "package_name": "quiroga.humberto.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969043987038-2pdkt5gp2222n6ieb97nd6c83lorfi29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZBhm4SiErGBhMrdotXZp94HJi1q4-PHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969043987038-2pdkt5gp2222n6ieb97nd6c83lorfi29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".palabrascon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+
+        <TextView
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:text="Palabras Con"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/iniciaCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:layout_marginBottom="50dp"
+        android:hint="inicia con"
+        android:textColor="@color/naranja"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/conEstaLetra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="50dp"
+        android:inputType="text"
+        android:hint="Con esta letra"
+        android:textColor="@color/naranja"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/conEstaCadena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Con esta cadena"
+        android:inputType="text"
+        android:textColor="@color/naranja"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="150dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_icono_circulo_rojo"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/palabra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/verde_azulado"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="150dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_icono_circulo_rojo"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/palabra2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/verde_azulado"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="150dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_icono_circulo_rojo"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/palabra3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/verde_azulado"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="150dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_icono_circulo_rojo"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/palabra4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/verde_azulado"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="150dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_icono_circulo_rojo" />
+
+        <TextView
+            android:id="@+id/palabra5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/verde_azulado"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

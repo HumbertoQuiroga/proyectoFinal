@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="quiroga.humberto.proyectofinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_02"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo_02"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoFinal">
+        <activity android:name=".PopUpBusqueda"></activity>
+        <activity android:name=".antonimos" />
+        <activity android:name=".buscarchat" />
+        <activity android:name=".busqueda" />
+        <activity android:name=".chat" />
+        <activity android:name=".espanol" />
+        <activity android:name=".formulas" />
+        <activity android:name=".inicio" />
+        <activity android:name=".matematicas" />
+        <activity android:name=".palabra" />
+        <activity android:name=".palabrascon" />
+        <activity android:name=".pasos" />
+        <activity android:name=".sinonimos" />
+        <activity android:name=".tema" />
+        <activity android:name=".guardados" />
+        <activity android:name=".configuraciones" />
+        <activity android:name=".registro" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

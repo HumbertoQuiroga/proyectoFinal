@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:text="@string/chat"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="150dp"
+        android:paddingTop="30dp"
+        />
+
+
+
+
+
+</LinearLayout>

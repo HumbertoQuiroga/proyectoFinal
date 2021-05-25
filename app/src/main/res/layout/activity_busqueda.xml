@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".busqueda">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:text="@string/busqueda"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombreTema1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="@string/nombre_del_tema"
+        android:textSize="24sp"
+        android:textColor="@color/verde_azulado"
+        />
+
+    <TextView
+        android:id="@+id/descripcionTema1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/lorem"
+        android:textSize="15sp"
+        android:textColor="@color/verde_azulado"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/botonLikeTema1"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_corazon_relleno"/>
+
+        <ImageButton
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_compartir"/>
+
+        <ImageButton
+            android:id="@+id/botonGuardarTema1"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_carpeta_linea"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombreTema2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="@string/nombre_del_tema"
+        android:textSize="24sp"
+        android:textColor="@color/verde_azulado"
+        />
+
+    <TextView
+        android:id="@+id/descripcionTema2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/lorem"
+        android:textSize="15sp"
+        android:textColor="@color/verde_azulado"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/botonLikeTema2"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_corazon_relleno"/>
+
+        <ImageButton
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_compartir"/>
+
+        <ImageButton
+            android:id="@+id/botonGuardarTema2"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_carpeta_linea"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombreTema3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="@string/nombre_del_tema"
+        android:textSize="24sp"
+        android:textColor="@color/verde_azulado"
+        />
+
+    <TextView
+        android:id="@+id/descripcionTema3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/lorem"
+        android:textSize="15sp"
+        android:textColor="@color/verde_azulado"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/botonLikeTema3"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_corazon_relleno"/>
+
+        <ImageButton
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_compartir"/>
+
+        <ImageButton
+            android:id="@+id/botonGuardarTema3"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icono_carpeta_linea"/>
+
+    </LinearLayout>
+
+</LinearLayout>

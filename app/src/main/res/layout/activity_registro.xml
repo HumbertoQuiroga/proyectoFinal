@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:text="Registrarse"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_persona"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_icono_persona"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/botonPadre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/madre_padre"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/naranja"
+            />
+        <Button
+            android:id="@+id/botonMaestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/maestroa"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/naranja"
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/textoUsuarioRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:hint="@string/usuario"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/naranja"
+        android:textColorHint="@color/naranja"
+        android:textSize="18sp"
+        />
+
+
+    <EditText
+        android:id="@+id/textoContraseñaRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:hint="@string/pin"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/naranja"
+        android:textColorHint="@color/naranja"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/textoRepetirContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:hint="@string/repetir_pin"
+        android:textAlignment="center"
+        android:textColor="@color/naranja"
+        android:textColorHint="@color/naranja"
+        android:textSize="18sp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".01"
+        android:text="siguiente"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/naranja"
+        />
+</LinearLayout>

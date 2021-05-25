@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".chat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:text="@string/chat"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_claro"
+        android:paddingHorizontal="20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_icono_circulo_rojo"
+            />
+
+        <TextView
+            android:id="@+id/nombreUsuarioChat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/gris_claro"
+            android:gravity="center"
+            android:text="@string/chatUsuario"
+            android:textColor="@color/verde_azulado"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/textoEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_weight=".5"
+            android:textSize="20sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textoChatRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="@color/gris_claro"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/textoMensajeEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="8"
+            android:background="@drawable/rounded_corners3"
+            android:backgroundTint="@color/gris_claro"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botonEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corners"
+            android:text="Enviar"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/verde_azulado"
+        android:paddingHorizontal="20dp">
+
+        <ImageButton
+            android:id="@+id/botonAtras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_flechaatras"
+            android:backgroundTint="@color/verde_azulado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:background="@color/verde_azulado"
+            android:gravity="center"
+            android:text="@string/configuraciones"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/ic_icono_persona"
+        />
+
+    <TextView
+        android:id="@+id/textoNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="@string/usuario"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/verde_azulado"/>
+
+    <Button
+        android:id="@+id/botonCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/verde_azulado"
+        android:text="@string/cerrar_sesion"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/botonConfiguraciones"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/verde_azulado"
+        android:text="@string/configuraciones"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/botonCambiarPin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/verde_azulado"
+        android:text="@string/cambiar_pin"
+        android:textSize="22sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editPinAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/pin_anterior"
+            android:textColor="@color/verde_azulado"
+            android:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight=".5"
+            android:text=""
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/verde_azulado"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editPinNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/pin_nuevo"
+            android:textColor="@color/verde_azulado"
+            android:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/botonNotificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/verde_azulado"
+        android:text="@string/notificaciones"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/botonMensajes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/mensajes"
+            android:textColor="@color/verde_azulado"
+            android:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/botonTemasGuardados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/temas_guardados"
+            android:textColor="@color/verde_azulado"
+            android:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/botonTemasNuevos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/temas_nuevos"
+            android:textColor="@color/verde_azulado"
+            android:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
